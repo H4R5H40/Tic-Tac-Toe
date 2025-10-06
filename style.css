@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aquamarine;
+    text-align: center;
+}
+.container{
+    height: 200px;
+    display:flex;
+    justify-content: center;
+    gap: 5px;
+}
+.game{
+    height: 200;
+    width: 200px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+
+}
+.box{
+    height: 50px;
+    width: 50px;
+    border-radius:10px ;
+    border-color: rgb(252, 2, 2);
+    border-width: 5px;
+    font-size: 25px;
+}
+#reset-b{    border-radius:10px ;
+    border-color: rgb(119, 2, 252);
+    border-width: 5px;
+    font-size: 25px;}
